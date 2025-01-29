@@ -7,7 +7,7 @@
 // Set the database access information as
 constants:
 DEFINE ('DB_USER', 'ocodwovlwk');
-DEFINE ('DB_PASSWORD', 'Splasheventser4real');
+DEFINE ('DB_PASSWORD', 'Splash4real');
  DEFINE ('DB_HOST', 'splasheventser.mysql.database.azure.com');
  DEFINE ('DB_NAME', 'splasheventserdata');
 
