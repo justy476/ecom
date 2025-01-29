@@ -6,7 +6,7 @@
 <title>Add an item</title>
 </head>
 <body>
-<?php # Script 17.1 - ecom17additem.php
+<?php # Script 17.1 - ecomadditem.php
  // This page allows the administrator to add a print (product).
 
  require_once ('includes/ecommysqli_connect.php');
@@ -28,7 +28,7 @@ $errors[] = 'Please enter the items\'s name!';
  if (is_uploaded_file ($_FILES['image']['tmp_name'])) {
 
  // Create a temporary file name:
-$temp = '../../ecomuploads/' . md5($_FILES['image']['name']);
+$temp = 'includes/ecomuploads/' . md5($_FILES['image']['name']);
 
 // Move the file over:
  if (move_uploaded_file($_FILES['image']['tmp_name'], $temp)) {
