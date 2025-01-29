@@ -6,10 +6,10 @@
 
 // Set the database access information as
 constants:
-DEFINE ('DB_USER', 'root');
-DEFINE ('DB_PASSWORD', '');
- DEFINE ('DB_HOST', 'localhost');
- DEFINE ('DB_NAME', 'ecommerce');
+DEFINE ('DB_USER', 'ocodwovlwk');
+DEFINE ('DB_PASSWORD', 'Splasheventser4real');
+ DEFINE ('DB_HOST', 'splasheventser.mysql.database.azure.com');
+ DEFINE ('DB_NAME', 'splasheventserdata');
 
  // Make the connection:
  $dbc = @mysqli_connect (DB_HOST, DB_USER,
