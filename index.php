@@ -11,6 +11,7 @@ links above...blah, blah, blah.</p>
 <p>Welcome to our site....please use the
 links above...blah, blah, blah.</p>
 
+<a href="ecom17additem.php">Begin selling</a>
  <?php // Include the HTML footer file:
  include ('includes/footer.html');
  ?>
