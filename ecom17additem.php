@@ -9,7 +9,7 @@
 <?php # Script 17.1 - ecom17additem.php
  // This page allows the administrator to add a print (product).
 
- require_once ('../../ecommysqli_connect.php');
+ require_once ('includes/ecommysqli_connect.php');
 
  if (isset($_POST['submitted'])) { // Handle the form.
 
